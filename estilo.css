@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: honeydew;
+    color: black;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 220px;
+    position: absolute;
+    top: 3px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 23 10 23 10;
+}
+li:hover {
+    background-color: rgba(9, 112, 114, 0.37);
+}
+#imagem-fundo {
+    background: url("fundo3.webp");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: black;
+    padding-top: 20%;
+    font-size: 70px;
+}
+#subtitulo {
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#acao {
+    color: black;
+    border: 1px darkblue solid;
+    padding: 5px 10px 5px 10px;
+}
+.icone {
+    width: 70px;
+}
+.icone:hover {
+    background-color: rgba(9, 112, 114, 0.37);
+}
+#objetivo {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.tres {
+    width: 20%;
+}
+.quatro {
+    width: 29%;
+    padding: 0 2%;
+}
+.texto {
+    text-align: justify;
+    text-align: center;
+}
+.centro {
+    text-align: center;
+}
+#sobre {
+    text-align: justify;
+    text-align: center;
+}
+#eu {
+    width: 50%;
+}
+footer {
+    background-color: rgba(9, 112, 114, 0.37);
+    float: left;
+    margin-left: 4px;
+}
+.extra {
+    width: 672px;
+    padding: 0;
+}
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translate(-50%);
+    }
+}
