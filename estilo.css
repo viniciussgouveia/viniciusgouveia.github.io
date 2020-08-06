@@ -100,10 +100,6 @@ footer {
     float: left;
     margin-left: 4px;
 }
-.extra {
-    width: 672px;
-    padding: 0;
-}
 @media all and (max-width: 768px) {
     #menu {
         visibility: hidden;
